@@ -1,5 +1,11 @@
 package com.spring.di.services;
 
+import org.springframework.beans.factory.annotation.Qualifier;
+
+import com.spring.custom.Component;
+
+@Component
+@Qualifier("emailService")
 public class EmailService implements MessageService {
 
 	@Override

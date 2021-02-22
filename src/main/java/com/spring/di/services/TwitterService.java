@@ -1,5 +1,11 @@
 package com.spring.di.services;
 
+import org.springframework.beans.factory.annotation.Qualifier;
+
+import com.spring.custom.Component;
+
+@Component
+@Qualifier("twitterService")
 public class TwitterService implements MessageService {
 
 	@Override

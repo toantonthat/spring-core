@@ -12,11 +12,11 @@ public class Application {
 //		SpringApplication.run(Application.class, args);
 
 		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(DIConfiguration.class);
-		MessageApplication app = context.getBean(MessageApplication.class);
-
-		app.processMessage("Hi Pankaj", "pankaj@abc.com");
-
-		// close the context
-		context.close();
+//		MessageApplication app = context.getBean(MessageApplication.class);
+//
+//		app.processMessage("Hi Pankaj", "pankaj@abc.com");
+//
+//		// close the context
+//		context.close();
 	}
 }
