@@ -1,11 +1,13 @@
-D:\eclipse\eclipse-workspace-2021\spring-core\src\main\java\com\spring\custom\Component.java
-D:\eclipse\eclipse-workspace-2021\spring-core\src\main\java\com\spring\di\consumer\MessageApplication.java
-D:\eclipse\eclipse-workspace-2021\spring-core\src\main\java\com\spring\di\services\TwitterService.java
-D:\eclipse\eclipse-workspace-2021\spring-core\src\main\java\com\spring\di\test\MessageApplicationTest.java
-D:\eclipse\eclipse-workspace-2021\spring-core\src\main\java\com\spring\custom\Autowired.java
-D:\eclipse\eclipse-workspace-2021\spring-core\src\main\java\com\spring\di\configuration\DIConfiguration.java
-D:\eclipse\eclipse-workspace-2021\spring-core\src\main\java\com\spring\di\services\EmailService.java
-D:\eclipse\eclipse-workspace-2021\spring-core\src\main\java\com\spring\model\Person.java
-D:\eclipse\eclipse-workspace-2021\spring-core\src\main\java\com\spring\custom\Service.java
-D:\eclipse\eclipse-workspace-2021\spring-core\src\main\java\com\spring\Application.java
-D:\eclipse\eclipse-workspace-2021\spring-core\src\main\java\com\spring\di\services\MessageService.java
+D:\Workspace 2023\spring-core\src\main\java\com\spring\Application.java
+D:\Workspace 2023\spring-core\src\main\java\com\spring\di\services\EmailService.java
+D:\Workspace 2023\spring-core\src\main\java\com\spring\di\consumer\MessageApplication.java
+D:\Workspace 2023\spring-core\src\main\java\com\spring\custom\Autowired.java
+D:\Workspace 2023\spring-core\src\main\java\com\spring\di\configuration\DIConfiguration.java
+D:\Workspace 2023\spring-core\src\main\java\com\spring\di\test\MessageApplicationTest.java
+D:\Workspace 2023\spring-core\src\main\java\com\spring\model\Person.java
+D:\Workspace 2023\spring-core\src\main\java\com\spring\di\services\MessageService.java
+D:\Workspace 2023\spring-core\src\main\java\com\spring\di\services\TwitterService.java
+D:\Workspace 2023\spring-core\src\main\java\com\spring\di\test\QualifierTesting.java
+D:\Workspace 2023\spring-core\src\main\java\com\spring\custom\Component.java
+D:\Workspace 2023\spring-core\src\main\java\com\spring\custom\Service.java
+D:\Workspace 2023\spring-core\src\main\java\com\spring\di\consumer\QualifierApplication.java

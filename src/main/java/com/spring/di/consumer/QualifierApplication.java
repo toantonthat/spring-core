@@ -34,7 +34,7 @@ public class QualifierApplication {
 	public boolean emailProcessMessage(String msg, String rec) {
 		return this.emailService.sendMessage(msg, rec);
 	}
-	
+
 	public boolean twitterProcessMessage(String msg, String rec) {
 		return this.twitterService.sendMessage(msg, rec);
 	}

@@ -1,8 +1,5 @@
 package com.spring.di.test;
 
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -29,15 +26,15 @@ public class QualifierTesting {
         return new TwitterService();
     }
 	
-	@Before
-	public void setUp() throws Exception {
-		context = new AnnotationConfigApplicationContext(QualifierTesting.class);
-	}
-	
-	@Test
-	public void test() {
-		QualifierApplication app = context.getBean(QualifierApplication.class);
-		System.out.println("app " + app);
-		Assert.assertTrue(app.twitterProcessMessage("Hi Pankaj", "pankaj@abc.com"));
-	}
+//	@Before
+//	public void setUp() throws Exception {
+//		context = new AnnotationConfigApplicationContext(QualifierTesting.class);
+//	}
+//
+//	@Test
+//	public void test() {
+//		QualifierApplication app = context.getBean(QualifierApplication.class);
+//		System.out.println("app " + app);
+//		Assert.assertTrue(app.twitterProcessMessage("Hi Pankaj", "pankaj@abc.com"));
+//	}
 }

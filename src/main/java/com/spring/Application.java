@@ -1,5 +1,6 @@
 package com.spring;
 
+import com.spring.di.services.GreetingService;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -12,11 +13,14 @@ public class Application {
 //		SpringApplication.run(Application.class, args);
 
 		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(DIConfiguration.class);
-//		MessageApplication app = context.getBean(MessageApplication.class);
+		MessageApplication app = context.getBean(MessageApplication.class);
+		GreetingService greetingService = context.getBean(GreetingService.class);
+
+		greetingService.greet();
 //
-//		app.processMessage("Hi Pankaj", "pankaj@abc.com");
-//
-//		// close the context
-//		context.close();
+		app.processMessage("Hi Pankaj", "pankaj@abc.com");
+
+		// close the context
+		context.close();
 	}
 }

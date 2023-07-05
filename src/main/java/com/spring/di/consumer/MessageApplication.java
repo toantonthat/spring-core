@@ -10,8 +10,8 @@ import com.spring.di.services.MessageService;
 public class MessageApplication {
 
 	private MessageService service;
-	
-	//private MessageService messageTwitterService;
+
+	private MessageService messageTwitterService;
 
 	public MessageService getService() {
 		return service;
@@ -27,15 +27,13 @@ public class MessageApplication {
 		return this.service.sendMessage(msg, rec);
 	}
 
-//	public MessageService getTwitterService() {
-//		return messageTwitterService;
-//	}
-//
-//	@Autowired
-//	@Qualifier("twitterService")
-//	public void setTwitterService(MessageService messageTwitterService) {
-//		this.messageTwitterService = messageTwitterService;
-//	}
-	
-	
+	public MessageService getTwitterService() {
+		return messageTwitterService;
+	}
+
+	@Autowired
+	@Qualifier("twitterService")
+	public void setTwitterService(MessageService messageTwitterService) {
+		this.messageTwitterService = messageTwitterService;
+	}
 }

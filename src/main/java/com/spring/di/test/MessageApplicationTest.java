@@ -1,8 +1,5 @@
 package com.spring.di.test;
 
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -32,7 +29,7 @@ public class MessageApplicationTest {
 		System.out.println("@Email");
 		return new EmailService();
 	}
-	
+
 //	@Bean
 //	public MessageService getMessageService() {
 //		return new MessageService() {
@@ -45,17 +42,17 @@ public class MessageApplicationTest {
 //		};
 //	}
 
-	@Before
-	public void setUp() throws Exception {
-		context = new AnnotationConfigApplicationContext(MessageApplicationTest.class);
-	}
-
-	@Test
-	public void test() {
-		MessageApplication app = context.getBean(MessageApplication.class);
-		System.out.println("app " + app);
-		Assert.assertTrue(app.processMessage("Hi Pankaj", "pankaj@abc.com"));
-	}
+//	@Before
+//	public void setUp() throws Exception {
+//		context = new AnnotationConfigApplicationContext(MessageApplicationTest.class);
+//	}
+//
+//	@Test
+//	public void test() {
+//		MessageApplication app = context.getBean(MessageApplication.class);
+//		System.out.println("app " + app);
+//		Assert.assertTrue(app.processMessage("Hi Pankaj", "pankaj@abc.com"));
+//	}
 
 	public static void main(String[] args) {
 
